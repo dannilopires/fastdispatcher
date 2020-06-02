@@ -1,0 +1,77 @@
+body {
+    font-family: "open sans", sans-serif;
+}
+
+
+.mat-toolbar.mat-primary {
+    background-color: rgb(80, 80, 82);
+    color: #fff;
+    padding: 0.5em;
+    height: 6.2em;
+  }
+
+.mat-button.mat-primary{
+    background-color: #2bbbad;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar .mat-list-item a{
+    padding-right: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.mat-button{
+   background-color: rgb(43, 187, 173);
+   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+   width: 20%;
+}
+
+section#top {
+    background-color: #a9aaac;
+    height: 32em;
+    padding-bottom: 34px;
+}
+
+.mat-list-item {
+    display: inline-block;
+  }
+
+.mat-nav-list.list-horizontal {
+    display: flex;
+    flex-direction: row;
+   }v
+
+button {
+    background-color: #a9aaac;
+    text-align: center;
+}
+
+div#info{
+    color: rgb(7, 6, 6);
+    margin-top: 3em;
+}
+
+div#info h2{
+    font-weight: 600;
+}
+
+div#info p{
+    font-size: 23px;
+    font-weight: 300;
+}
