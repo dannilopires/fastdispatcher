@@ -1,10 +1,10 @@
 # fastdispatcher
 
-Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da FICR.
+## Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da FICR.
 
-# Para testar o site, siga as instruções abaixo.
+### Para testar o site, siga as instruções abaixo.
 
-FRONT-END
+#### FRONT-END
 - Abrir terminal
 - git init
 - git clone https://github.com/dannilopires/fastdispatcher.git
@@ -13,14 +13,13 @@ FRONT-END
 - ng serve 
 - Abrir navegador e digitar: http://localhost:4200
 
-BACK-END
+#### BACK-END
 - Abrir outro terminal
 - cd back-end
 - npm start 
 - Servidor iniciará e ficará 'escutando' na porta 4000
 
-MONGODB
- Para verificar persistência de dados no mongodb
+#### MONGODB
 - Abrir terceiro terminal
 - Iniciar mongo
 - show dbs
