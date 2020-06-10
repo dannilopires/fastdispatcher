@@ -1,0 +1,23 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="40">
+        <mat-toolbar color="primary">Login</mat-toolbar>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" fxLayoutAlign="stretch" fxLayout="column">
+                <mat-form-field>
+                    <mat-label>Usuário</mat-label>
+                        <input matInput type="text" class="form-control" formControlName="username" [ngClass]="{ 'is-invalid': submitted && f.username.errors}">
+                        <mat-error *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                            Campo obrigatório
+                        </mat-error>
+                </mat-form-field>
+
+                 <mat-form-field>
+                    <mat-label>Senha</mat-label>
+                        <input matInput  type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+                        <mat-error *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                            Campo obrigatório
+                        </mat-error>
+                </mat-form-field>
+                    <button id="login" button mat-raised-button class="btn" type="submit">Login</button>
+             </form>
+    </mat-card>
+</div>

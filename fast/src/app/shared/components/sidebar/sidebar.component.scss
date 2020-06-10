@@ -1,0 +1,29 @@
+:host {
+     padding: 20px;
+     background-color: yellow;
+}
+
+.btn {
+     background-color: rgb(43, 187, 173);
+     text-transform: uppercase;
+ }
+
+.mat-list-item:hover{
+     background-color: gainsboro;
+}
+
+.mat-nav-list.mat-list-item{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: medium;
+     text-align: center;
+}
+
+a{
+     text-transform: uppercase;
+     font-weight: 600;
+}
+
+.mat-nav-list, .btn{
+     text-align: center;
+     display: inline-block;
+}
