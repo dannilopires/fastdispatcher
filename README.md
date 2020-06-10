@@ -1,5 +1,4 @@
 # fastdispatcher
-Projeto FICR
 
 Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da FICR.
 
@@ -12,7 +11,7 @@ FRONT-END
 - cd front-end
 - npm install
 - ng serve 
-- abrir navegador e digitar: http://localhost:4200
+- Abrir navegador e digitar: http://localhost:4200
 
 BACK-END
 - Abrir outro terminal
