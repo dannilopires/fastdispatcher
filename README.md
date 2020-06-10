@@ -1,6 +1,6 @@
 # fastdispatcher
 
-## Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da FICR.
+### Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da FICR.
 
 ### Para testar o site, siga as instruções abaixo.
 
