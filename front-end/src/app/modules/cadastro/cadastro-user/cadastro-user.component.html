@@ -1,5 +1,5 @@
 <div fxLayoutAlign="center center" fxFlexFill class="main-div">
-    <mat-card fxFlex="50">
+    <mat-card fxFlex="50" class="box">
         <mat-toolbar color="primary">Cadastro</mat-toolbar>
             <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" fxLayoutAlign="stretch" fxLayout="column" class="login-form">
                 <mat-form-field>
@@ -29,11 +29,13 @@
                 <mat-form-field>
                     <mat-label>Senha</mat-label>
                         <input matInput  type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
-                        <mat-error *ngIf="submitted && f.password.errors" class="invalid-feedback"></mat-error>
+                        <mat-error *ngIf="submitted && f.password.errors" class="invalid-feedback">Campo obrigatório</mat-error>
+                        <!--
                         <mat-error *ngIf="f.password.errors.required">Campo obrigatório</mat-error>
                         <mat-error *ngIf="f.password.errors.minlength">Senha deve ter no mínimo 6 caracteres</mat-error>
+                        !-->
                 </mat-form-field>
-                    <button [disabled]="loading" mat-raised-button class="btn">Cadastrar</button>
+                    <button mat-raised-button class="btn">Cadastrar</button>
              </form>
     </mat-card>
 </div>
