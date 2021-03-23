@@ -8,6 +8,7 @@ import { FullwidthComponent } from './layout/fullwidth/fullwidth.component';
 import { CadastroUserComponent } from './modules/cadastro/cadastro-user/cadastro-user.component';
 import { PgInicialComponent } from './modules/pg-inicial/pg-inicial.component';
 import { AuthGuard } from './_helpers';
+import { PageNotFoundComponent } from './modules/pagenotound.component';
 
 
 const routes: Routes = [{
@@ -29,7 +30,11 @@ const routes: Routes = [{
     {
       path: 'cadastro-user',
       component: CadastroUserComponent
-    }]
+    },
+    {
+      path: '**', component: PageNotFoundComponent   // Wildcard route for a 404 page
+    }
+  ]
   },
   {
     path: '',
